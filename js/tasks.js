@@ -456,6 +456,13 @@ if (
 // Output: alert("Boshqa son!")
 
 // Qani bir kod yozingchi 👀
+let numberinput3 = prompt("Son kiriting (10/100):");
+
+if ((numberinput3 < 10 || numberinput3 > 100) && numberinput3 % 2 !== 0) {
+  console.log("chegaradagi toq son!");
+} else {
+  console.log("Boshqa son!");
+}
 
 // ====================================
 // ============ 24-masala =============
@@ -472,6 +479,13 @@ if (
 // Output: alert("Siz admin emassiz!")
 
 // Qani bir kod yozingchi 👀
+let wordinput4 = prompt("So'z kiriting (admin/user):");
+
+if (wordinput4 !== "admin") {
+  console.log("Siz admin emassiz!");
+} else {
+  console.log("Xush kelibsiz, admin!");
+}
 
 // ====================================
 // ============ 25-masala =============
@@ -488,6 +502,17 @@ if (
 // Output: alert("Shart bajarilmadi!")
 
 // Qani bir kod yozingchi 👀
+let firstNumberInput = prompt("Birinchi sonni kiriting:");
+
+if (
+  firstNumberInput >= 0 &&
+  (firstNumberInput > prompt("Ikkinchi sonni kiriting:") ||
+    firstNumberInput == prompt("Ikkinchi sonni kiriting:"))
+) {
+  console.log("Birinchi son mos keladi!");
+} else {
+  console.log("Shart bajarilmadi!");
+}
 
 // ====================================
 // ============ 26-masala =============
@@ -504,7 +529,16 @@ if (
 // Output: alert("Oddiy son!")
 
 // Qani bir kod yozingchi 👀
+let numberinput4 = prompt("Son kiriting (0/10):");
 
+if (
+  (numberinput4 > 0 && numberinput4 < 10) ||
+  (numberinput4 > 100 && numberinput4 < 200)
+) {
+  console.log("Maxsus diapazon!");
+} else {
+  console.log("Oddiy son!");
+}
 // ====================================
 // ============ 27-masala =============
 // ====================================
@@ -520,6 +554,14 @@ if (
 // Output: alert("Boshqa holat!")
 
 // Qani bir kod yozingchi 👀
+let name = prompt("Ismingizni kiriting:");
+let ageinput3 = prompt("Yoshingizni");
+
+if (name !== "" && ageinput3 < 18) {
+  console.log(`Yoshsin, ${name}!`);
+} else {
+  console.log("Boshqa holat!");
+}
 
 // ====================================
 // ============ 28-masala =============
@@ -536,6 +578,13 @@ if (
 // Output: alert("Oddiy son!")
 
 // Qani bir kod yozingchi 👀
+let numberinput5 = prompt("Son kiriting (0/120):");
+
+if ((numberinput5 != 0 && numberinput5 % 2 == 0) || numberinput5 > 100) {
+  console.log("Maxsus son!");
+} else {
+  console.log("Oddiy son!");
+}
 
 // ====================================
 // ============ 29-masala =============
@@ -552,6 +601,13 @@ if (
 // Output: alert("Ikkichi so'z g'olib!")
 
 // Qani bir kod yozingchi 👀
+let firstWord = prompt("Birinchi so'zni kiriting (salom/test):");
+let secondWord = prompt("Ikkinchi so'zni kiriting (hi/hello):");
+if (firstWord.length > secondWord.length || firstWord === "salom") {
+  console.log("Birinchi so'z g'olib!");
+} else {
+  console.log("Ikkinchi so'z g'olib!");
+}
 
 // ====================================
 // ============ 30-masala =============
@@ -568,3 +624,12 @@ if (
 // Output: alert("Superstar emassiz!")
 
 // Qani bir kod yozingchi 👀
+let ageinput4 = prompt("Yoshingizni kiriting (18/20):");
+let nameinput = prompt("Ismingizni kiriting (Ali/Vali):");
+let answerinput = prompt("Javobingizni kiriting (ha/yo'q):");
+
+if (ageinput4 >= 18 && nameinput !== "" && answerinput === "ha") {
+  console.log(`Siz superstarsiz, ${nameinput}!`);
+} else {
+  console.log("Superstar emassiz!");
+}
