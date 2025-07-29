@@ -313,7 +313,13 @@ if (numberinput >= 50 && numberinput % 2 === 0) {
 // Output: alert("Boshqa so'z!")
 
 // Qani bir kod yozingchi 👀
-let; 
+let wordinput2 = prompt("So'z kiriting (javascript/coding):");
+
+if (wordinput2 === "javascript" || wordinput2 === "coding") {
+  console.log("Siz dasturchisiz!");
+} else {
+  console.log("Boshqa So'z!");
+}
 
 // ====================================
 // ============ 18-masala =============
@@ -330,7 +336,13 @@ let;
 // Output: alert("Son nol!")
 
 // Qani bir kod yozingchi 👀
+let numberinput2 = prompt("Son kiriting (0/10):");
 
+if (numberinput2 == "10") {
+  console.log("Son nol emas!");
+} else {
+  console.log("Son nol!");
+}
 // ====================================
 // ============ 19-masala =============
 // ====================================
@@ -346,6 +358,14 @@ let;
 // Output: alert("O'smir emassiz!")
 
 // Qani bir kod yozingchi 👀
+let ageinput = prompt("Yoshingizni kiriting (13/19):");
+
+if (ageinput > 13 && ageinput < 19) {
+  console.log("Siz o'smirsiz!");
+} else {
+  console.log("Siz o'smir emassiz!");
+}
+
 
 // ====================================
 // ============ 20-masala =============
@@ -362,6 +382,7 @@ let;
 // Output: alert("Yaxshi so'z!")
 
 // Qani bir kod yozingchi 👀
+let; 
 
 // ====================================
 // ============ 21-masala =============
