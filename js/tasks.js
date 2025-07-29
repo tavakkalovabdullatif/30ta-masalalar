@@ -243,7 +243,13 @@ if (son < 10 || son > 100) {
 // Output: alert("Hech narsa kiritmadingiz!")
 
 // Qani bir kod yozingchi 👀
+let wordinput1 = prompt("So'z kiriting (test/hello)");
 
+if (wordinput1 !== "") {
+  console.log("So'z kiriting!");
+} else {
+  console.log("Hech narsa kiritmadingiz!");
+}
 
 // ====================================
 // ============ 15-masala =============
@@ -260,6 +266,14 @@ if (son < 10 || son > 100) {
 // Output: alert("Sonlar teng emas!")
 
 // Qani bir kod yozingchi 👀
+let firstnumber = prompt("Birinchi sonni kiriting:");
+let secondnumber = prompt("Ikkinchi sonni kiriting:");
+
+if (firstnumber == secondnumber) {
+  console.log("Sonlar teng!");
+} else {
+  console.log("Sonlar teng emas!");
+}
 
 // ====================================
 // ============ 16-masala =============
