@@ -382,7 +382,13 @@ if (ageinput > 13 && ageinput < 19) {
 // Output: alert("Yaxshi so'z!")
 
 // Qani bir kod yozingchi 👀
-let; 
+let wordinput3 = prompt("So'z kiriting (hi/hello):");
+
+if (wordinput3.length < 3 || wordinput3 === "") {
+  console.log("So'z juda qisqa!");
+} else {
+  console.log("Yaxsho so'z!");
+}
 
 // ====================================
 // ============ 21-masala =============
@@ -399,6 +405,14 @@ let;
 // Output: alert("Shart bajarilmadi!")
 
 // Qani bir kod yozingchi 👀
+let firstNumber = prompt("Birinchi sonni kiriting:");
+let secondNumber = prompt("Ikkinchi sonni kriting:");
+
+if (firstNumber > secondNumber && firstNumber % 2 === 0) {
+  console.log("Birinchi son katta va juft!");
+} else {
+  console.log("Shart bajarilmadi!");
+}
 
 // ====================================
 // ============ 22-masala =============
@@ -415,6 +429,17 @@ let;
 // Output: alert("Armiyaga bormaysiz!")
 
 // Qani bir kod yozingchi 👀
+let ageinput2 = prompt("Yoshingiznoi kiriting (18/20):");
+
+if (
+  ageinput2 >= 18 &&
+  prompt("Jinsingizni kiriting (erkak/ayol):") === "erkak"
+) {
+  console.log("Siz armiyaga borasiz!");
+} else {
+  console.log("Armiyaga bormaysiz!");
+}
+
 
 // ====================================
 // ============ 23-masala =============
