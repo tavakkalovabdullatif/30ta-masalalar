@@ -290,6 +290,13 @@ if (firstnumber == secondnumber) {
 // Output: alert("Boshqa son!")
 
 // Qani bir kod yozingchi 👀
+let numberinput = prompt("Son kiriting (50/60):");
+
+if (numberinput >= 50 && numberinput % 2 === 0) {
+  console.log("Katta juft son!");
+} else {
+  console.log("Boshqa son!");
+}
 
 // ====================================
 // ============ 17-masala =============
@@ -306,6 +313,7 @@ if (firstnumber == secondnumber) {
 // Output: alert("Boshqa so'z!")
 
 // Qani bir kod yozingchi 👀
+let; 
 
 // ====================================
 // ============ 18-masala =============
